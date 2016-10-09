@@ -1,0 +1,21 @@
+
+/* Puts labels of the dropdown menus to the left */
+.control-label, .selectize-control { 
+  display: table-cell; 
+  text-align: center; 
+  vertical-align: middle; 
+  padding-right: 1em;
+} 
+.dropdown > .form-group { 
+  display: table-row;
+}
+
+/* Hides the numbers under the month slider */
+.irs-grid-text {
+  display:none ;
+}
+
+.underline {
+  text-decoration:underline;
+  
+}
